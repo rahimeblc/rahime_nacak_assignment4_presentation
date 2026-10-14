@@ -176,6 +176,12 @@ tb(s, "LEA.EU — Artificial Intelligence & Data Science",
 tb(s, "October 2026", Inches(0.7), Inches(5.96), Inches(4), Inches(0.38),
    size=13, italic=True, color=RGBColor(0x93,0xC5,0xFD))
 
+rect(s, Inches(0.7), Inches(6.42), Inches(6.8), Inches(0.42), fill=RGBColor(0x16,0x2B,0x6B), line=ACCENT, lw=Pt(0.8))
+tb(s, "GitHub: github.com/rahimeblc/rahime_nacak_assignment4_presentation",
+   Inches(0.85), Inches(6.47), Inches(6.5), Inches(0.32),
+   size=11, bold=True, color=RGBColor(0xBF,0xDB,0xFF),
+   link="https://github.com/rahimeblc/rahime_nacak_assignment4_presentation")
+
 footer(s, 1)
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -773,7 +779,8 @@ tb(s, "Terminal Command: Launch Multi-Service Stack", Inches(0.75), Inches(5.5),
 
 cmd_text = (
     "# From the project root, launch FastAPI, Streamlit, MLflow, and Grafana in detached mode:\n"
-    "cd \"/Users/BlankUser/Desktop/data mining A3\" && docker compose up -d"
+    "cd \"/Users/BlankUser/Desktop/data mining A3\" && docker compose up -d\n"
+    "# Presentation Source: https://github.com/rahimeblc/rahime_nacak_assignment4_presentation"
 )
 tb(s, cmd_text, Inches(0.8), Inches(5.82), Inches(11.8), Inches(0.9), size=11, color=CODE_GRN)
 
@@ -939,8 +946,12 @@ for i, (lbl, col) in enumerate([("Model Training", A1_COL), ("API Deployment", A
     tb(s, lbl, bx, Inches(4.75), Inches(2.6), Inches(0.39), size=14, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
 
 tb(s, "Rahime Nacak", Inches(1.0), Inches(5.35), Inches(11), Inches(0.6), size=24, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-tb(s, "420-976-VA  ·  Data Mining Project  ·  Vanier College  ·  Fall 2026", Inches(1.0), Inches(5.98), Inches(11), Inches(0.45), size=14, color=RGBColor(0xBF,0xDB,0xFF), align=PP_ALIGN.CENTER)
-tb(s, "October 2026", Inches(1.0), Inches(6.48), Inches(11), Inches(0.4), size=13, italic=True, color=RGBColor(0x93,0xC5,0xFD), align=PP_ALIGN.CENTER)
+tb(s, "420-976-VA  ·  Data Mining Project  ·  Vanier College  ·  Fall 2026", Inches(1.0), Inches(5.92), Inches(11), Inches(0.40), size=14, color=RGBColor(0xBF,0xDB,0xFF), align=PP_ALIGN.CENTER)
+tb(s, "GitHub Repository: https://github.com/rahimeblc/rahime_nacak_assignment4_presentation",
+   Inches(1.0), Inches(6.32), Inches(11), Inches(0.38),
+   size=13, bold=True, color=ACCENT, align=PP_ALIGN.CENTER,
+   link="https://github.com/rahimeblc/rahime_nacak_assignment4_presentation")
+tb(s, "October 2026", Inches(1.0), Inches(6.72), Inches(11), Inches(0.35), size=12, italic=True, color=RGBColor(0x93,0xC5,0xFD), align=PP_ALIGN.CENTER)
 
 footer(s, 18)
 
